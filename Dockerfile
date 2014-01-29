@@ -2,6 +2,7 @@ FROM ubuntu
 MAINTAINER Filippo Vitale @filippovitale
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list.d/ubuntuarchive.list
+RUN apt-get install python-software-properties
 RUN add-apt-repository ppa:webupd8team/java
 RUN apt-get -y update
 
