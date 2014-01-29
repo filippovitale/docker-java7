@@ -1,4 +1,4 @@
-## filippovitale/java7
+# Oracle Java7
 
 ```
 FROM ubuntu
